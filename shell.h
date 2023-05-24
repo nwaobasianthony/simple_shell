@@ -111,9 +111,6 @@ void print_error(char *, int *, char *);
 
 extern char **environ;
 
-static void handlerc(int);
-void mv_cmd(cmdnode **, int);
-int exec_cmd(char **, int, alias **);
 
 #endif
 

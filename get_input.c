@@ -15,12 +15,12 @@ int get_input(char **input, size_t *inputlen, char ***cmds, int fd)
 	int len;
 
 	if (isatty(0) && !fd)
-		write(1, "$ ", 2);
+		_write(1, "$ ", 2);
 	len = _getline(input, inputlen, fd);
 	if (len == -1)
 	{
 		free(*input);
-		write(1, "\n", 1);
+		_write(1, "\n", 1);
 		exit(0);
 	}
 	(*input)[len - 1] = '\0';
