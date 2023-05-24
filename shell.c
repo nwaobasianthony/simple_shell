@@ -6,7 +6,6 @@
  * @argc: argument counter
  * @argv: argument vector
  * @argp: env variables
- *
  * Return: always 0
  */
 
