@@ -99,3 +99,4 @@ int *handle_bin(char **cmd, alias **head)
 		free_pp(cmd);
 	return (ret);
 }
+

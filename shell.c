@@ -1,8 +1,17 @@
 #include <stdio.h>
 #include "shell.h"
 
-int main(int argc, char *argv[])
-{
+/**
+ * main - entry point for simple shell
+ * @argc: argument counter
+ * @argv: argument vector
+ * @argp: env variables
+ *
+ * Return: always 0
+ */
 
-    return 0;
+int main(int argc, char **argv, char **argp)
+{
+	return (0);
 }
+

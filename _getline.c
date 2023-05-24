@@ -46,3 +46,4 @@ int _getline(char **lnptr, size_t *size, int fd)
 	}
 	return (len);
 }
+
