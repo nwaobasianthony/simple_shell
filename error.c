@@ -1,5 +1,6 @@
 #include "shell.h"
-#incldue "error.h"
+#include "error.h"
+
 /**
  * print_error - print error message
  * @prog: command
